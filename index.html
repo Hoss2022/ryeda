@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ar-SA ">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Alreyada</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/darkly/bootstrap.min.css">
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+	<div class="body_main">
+        <style>
+            .body_main {
+              background-image: url("assets/img/103.jpg");
+              background-repeat: no-repeat;
+	          background-size: cover;
+	          background-position: center center;
+	          background-attachment: fixed;
+             
+            }
+			.video_over{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				z-index: 123;
+				top:0;
+			}
+			.flex-direction-nav a:before {
+				font-size: 29px !important;
+			}
+			.flexslider{
+				width: 100%;
+				height:768px;
+			}
+
+.team-member:before {
+    content: "";
+    width: 100px;
+    height: 50.5%;
+    background: #f68832;
+    z-index: 999;
+    display: block;
+    position: absolute;
+    right: 0;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 71%);
+}
+.team-member:after {
+    content: "";
+    width: 100px;
+    height: 48%;
+    background: #11110f;
+    z-index: 999;
+    display: block;
+    position: absolute;
+    right: -6%;
+    bottom: 3.5rem;
+    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+}
+				
+@media only screen and (max-width: 1300px) {
+	.flexslider {
+		width: 100%;
+		height: 699px;
+	}
+}	
+
+		
+@media only screen and (max-width: 1200px) {
+	.flexslider {
+		width: 100%;
+		height: 630px;
+	}
+}
+
+		
+@media only screen and (max-width: 1100px) {
+	.flexslider {
+		width: 100%;
+		height: 570px;
+	}
+}
+		
+@media only screen and (max-width: 1000px) {
+	.flexslider {
+		width: 100%;
+		height: 546px;
+	}
+}
+
+		
+@media only screen and (max-width: 900px) {
+	.flexslider {
+		width: 100%;
+		height: 438px;
+	}
+}
+
+
+		
+@media only screen and (max-width: 800px) {
+	.flexslider {
+		width: 100%;
+		height: 397px;
+	}
+}
+
+		
+@media only screen and (max-width: 700px) {
+	.flexslider {
+		width: 100%;
+		height: 337px;
+	}
+}
+
+		
+@media only screen and (max-width: 600px) {
+	.flexslider {
+		width: 100%;
+		height: 264px;
+	}
+}
+		
+@media only screen and (max-width: 500px) {
+	.flexslider {
+		width: 100%;
+		height: 205px;
+	}
+}
+
+
+	
+@media only screen and (max-width: 400px) {
+	.flexslider {
+		width: 100%;
+		height: 130px;
+	}
+}
+
+
+
+            @media only screen and (max-width: 600px) {
+                  .row{
+                    margin: 0;
+                  }
+			}
+            
+            </style>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    الـــقائمة
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">خدماتنا</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">اســتثماراتنا</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">نــبذة عــنا</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">تــواصل مـعنا</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+        <!-- Masthead-->
+		
+		<div id="slider" class="flexslider">
+		   <ul class="slides">
+			  <li>
+				 <video onplay="pauseslider()" onpause="playslider()" onended="resumeslider()" autoplay="true" controls="false" muted width="100%" height="100%">
+					<source src="assets/img/slider/60.mp4" type='video/mp4' />
+				 </video>
+				 <div class="video_over"></div>
+			  </li>
+			  <li><img style="width:100%" src="assets/img/slider/ban600.png" /></li>
+			  <li><img style="width:100%" src="assets/img/slider/vis1.png" /></li>
+		   </ul>
+		</div>
+	
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">خــدمـــاتنا</h2>
+                    <h3 class="section-subheading text-muted">الخدمات التي تفتخر شركة الريادة العقارية بتقديمها لعمملائها</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-building fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">خدمة الشراء والبيع</h4>
+                        <p class="text-muted">شراء وبيع الأراضي والعقارات و تقسيمها 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-map fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">خدمة البيع على الخريطة</h4>
+                        <p class="text-muted">بيع أو تأجير الوحدات العقارية مهما كان غرضها أو أسلوب تطويرها قبل أو أثناء مرحلة التطوير/البناء،</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">خدمة الادارة والتشغيل</h4>
+                        <p class="text-muted">ادارة و تأجير العقارات المملوكة او المؤجرة و الشقق الفندقية و المجمعات التجارية</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- العفـــــــرات-->
+
+ <section class="back" id="portfolio">
+        <section class="page-section  section1" >
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">اســتثماراتنا</h2>
+                    <br>
+                    <br>
+                    <h2 class="section-subheading ">الـــمجمـعات التــجارية 
+                    </h2>
+                    <br>
+                    <br>
+                </div>
+                <div class="row mx-auto my-auto text-center columnscontent2">
+						<div class="col-lg-12 col-md-12 ">
+                            <a href="roz1/royalmall.html">
+                           <img class="img-fluid" src="assets/img/portfolio/royalcard.png" alt="" />
+                                
+                            </a>
+                        </div>
+
+         </section>
+         <section class="page-section section1">
+                            <div class="container">
+                                <div class="text-center">
+                                    <h2 class="section-heading text-uppercase">مجموعة الفنادق و الوحدات السكنية المفروشة</h2>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h2 class="section-subheading ">مــــكة المـــكرمـــة </h2>
+                                    <br>
+                                    <br>
+                                </div>
+                                <div class="row mx-auto my-auto text-center columnscontent">
+                                        <div class="col-lg-6 col-md-6">
+                                            <a href="roz1/roz.html">
+                                           <img class="img-fluid" src="assets/img/portfolio/fa1.png" alt="" />
+                                                
+                                            </a>
+                                        </div>
+						                <div class="col-lg-6 col-md-6">
+                                            <a href="roz1/roz1.html">
+                                            <img class="img-fluid" src="assets/img/portfolio/fa2.png" alt="" />
+                                                
+                                         </a>
+                                         </div>
+                                
+         </section>
+
+               <br>         
+          <section class="page-section section1">
+                            <div class="container">
+                                <div class="text-center">
+                                    
+                                    <h2 class="section-subheading ">جــــدة </h2>
+                                    <br>
+                                    <br>
+                                </div>
+                                <div class="row mx-auto my-auto text-center columnscontent">
+                                        <div class="col-lg-6 col-md-6">
+                                            <a href="roz1/roz4.html">
+                                        <img class="img-fluid" src="assets/img/portfolio/fa3.png" alt="" />
+                                                
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <a href="roz1/roz3.html">
+                                            <img class="img-fluid" src="assets/img/portfolio/fa4.png" alt="" />
+                                                
+                                        </a>
+                                        </div>
+                                
+          </section>
+          <br>  
+          <section class="page-section section1">
+                        <div class="container">
+                            <div class="text-center">
+                                
+                                <h2 class="section-subheading ">الـــباحـــة </h2>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="row mx-auto my-auto text-center columnscontent">
+                                    <div class="col-lg-6 col-md-6">
+                                        <a href="roz1/roz2.html">
+                                    <img class="img-fluid" src="assets/img/portfolio/fa5.png" alt="" />
+                                            
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <a href="roz1/roz5.html">
+                                        <img class="img-fluid" src="assets/img/portfolio/fa6.png" alt="" />
+                                            
+                                    </a>
+                                    </div>
+                            
+           </section>
+           <br>  
+           <br> 
+           <br> 
+           <section class="page-section section1">
+                    <div class="container">
+                        <div class="text-center">
+                            <h2 class="section-heading text-uppercase">المــشاريع تـــحت التنفيذ</h2>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="row mx-auto my-auto text-center columnscontent3">
+                                <div class="col-lg-4 col-md-4">
+                                    
+                                   <img class="img-fluid" src="assets/img/portfolio/car12.png" alt="" />
+                                        
+                                   
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    
+                                    <img class="img-fluid" src="assets/img/portfolio/car14.png" alt="" />
+                                        
+                                 
+                                 </div>
+                                 <div class="col-lg-4 col-md-4">
+                                   
+                                    <img class="img-fluid" src="assets/img/portfolio/car16.png" alt="" />
+                                        
+                                 
+                     </div>
+                        
+            </section>
+        </section>          
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading ">من نـــحــن؟</h2>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                </div>
+                <ul class="timeline">
+                    <li >
+                        <div class="timeline-image"><img class="rounded-circle mt-2 mt-md-4 img-fluid" src="assets/img/logo.svg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                
+                            </div>
+                            <div class="timeline-body"><p class="text-muted justify">
+                                شركة الريادة العقارية هي شركة ذات مسؤولية محدودة
+                                لها حضورها الكبير والمتميز في كلا من مكةالمكرمة - جدة - الباحة. تم تأسيسها من قبل مجموعة من
+                                ذوي الخبرة الطويلة والمتراكمة في مجال المقاولات والخدمات العقارية وذلك للعمل في مجال الصناعة العقارية  
+                           
+                                والمقاولات بمفهومها الشامل. وعليه ومن خلال هذا المفهوم ،تسعى الشركة ممثلة بإدارتها وفريق العمل لديها على 
+
+                            فهم قواعد وأسس السوق بشكل علمي ودقيق لتلبي وتواكب احتياجات وتطلعات العملاء المتزايدة ومـن ثم تـقديم
+                            
+                            وتطوير المشاريع والحلول والخدمات العقارية والهندسية المتنوعة والمبتكرة التي تلبي هذه الاحتياجات 
+                        
+
+                          </p>  </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle mt-2 mt-md-4 img-fluid" src="assets/img/vision.svg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">رؤيتـــنا</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted justify">ان تكون شركة الرياده العقارية الرائده في المملكه تقدم الجودة والخدمه المميزه للعملاء وصناعه علامه تجاريه في مجال 
+                                الفنادق والمجمعات التجارية لتشمل كل مناطق المملكه من خلال خطط استراتيجية وكوادر بشرية مؤهله والاستعانه بكل ماهو 
+                                جديد ومطور في عالم العقارات</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle mt-2 mt-md-4 img-fluid" src="assets/img/message.svg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">رســـالتنا</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted justify">نعمل في النشاط العقاري وذلك من خلال ادارة وتطوير الاراضي وبناء الوحدات السكنية والمجمعات التجارية واستثمار المواقع 
+                                وتسويقها مع الالتزام بتقديم خدمات متميزه تنال رضا عملائنا بحيث تكون اختيارهم العقاري الأول .
+                                </p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle mt-2 mt-md-4 img-fluid" src="assets/img/download.svg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                               </b>
+                                <h4 class="subheading">قــيـمـنـا</h4>
+                            </div>
+                            <div class="timeline-body justify"><p class="text-muted ">
+                                <p class="text-muted ">
+                                    ان نجاح الريادة العقارية تحكمه مبادئنا الأساسية التالية</p>
+                                 <b>المصداقية:</b>
+                                 بما ينعكس ايجابيا على علاقتنا مع العملاء </p>
+                                <p class="text-muted ">
+                                     <b>النزاهة:</b> 
+                                    لتعود ثمارها على شركائــنا و نــــعــزز مكــانـتـنا</p>
+    
+                                    <p class="text-muted ">
+                                        <b>الأمانة:</b> 
+                                       لـــــــتــــحـــــقــــيـــــــق رضـــــــــــا عــــــــــمـــــلائـــنـــا</p>
+
+                                       <p class="text-muted ">
+                                        <b>الابداع:</b> 
+                                       نسعى جاهدين لتجاوز كل التوقعات و الوصول لأعلى مستويات الابداع والتميز</p>  
+                                </div>
+                        </div>
+                        <li>
+                            <div class="timeline-image"><img class="rounded-circle mt-2 mt-md-4 img-fluid" src="assets/img/flag.svg" alt="" /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    
+                                    <h4 class="subheading">أهدافنا</h4>
+                                </div>
+                                <div class="timeline-body justify">
+                                    <ul>
+                                      <li>  <p class="text-muted ">أن نكون ضمن أكبر الشركات العقارية الناجحة في السوق العقاري </p></li>  
+                                      <li>  <p class="text-muted ">توفير فرص استثمارية عقارية ناجحه ومدروسه لتحسين ربحية الشركه </p></li>
+                                      <li>  <p class="text-muted ">تقديم الخدمات و المنتجات المصممة وفق أعلى المعايير و الخبرات و التجارب العالمية </p></li>
+                                      <li>  <p class="text-muted ">التعرف على متطلبات العملاء ورغباتهم سعيا منا للارتقاءالى مستوى تطلعاتهم</p></li>
+                                      <li> <p class="text-muted ">خلق بيئة جديده تجذب وتشجع فريق العمل ليساهم في تطوير الاداء </p></li>
+                                      <li> <p class="text-muted ">مواكبة التطلعات و الطموحات الاستثمارية لشركائنا </p></li>
+                                      <li> <p class="text-muted ">تقديم حلول استثمارية مبتكرة هدفها الأول و الأخير تلبية احتياجات شركتنا </p></li>
+                                    </ul>
+                                 </div>
+                            </div>
+                        </li>
+                        
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section back" id="team">
+            <div class="container">
+                <div class="text-center">
+                    
+                    
+                </div>
+                
+                   <div class="row">
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto w-100 h-auto" src="assets/img/team/abu3.jpeg" alt="" />
+                            <br> 
+                            <br>
+                        <div >  
+                            <h5 class= "boss"  >  المــهندس/ </h5> <br>
+                            <h5 class= "boss2" >   عبدالله صالح طيشان</h5>
+                        </div>   
+                        </div>
+                    </div>
+                    <br>
+                
+                    <div class="col-lg-6 mx-auto text-justify pl-5">
+					
+                        <h2 class="text-muted title">كـــلــمـــة الــــرئـــيـــس الـــتــنــفيـــذي</h2><br>
+                        <h5 class="text-muted title" >  السلام عليكم و رحمة الله وبركاته</h5> 
+                        <h5 class="text-muted">بعد التحية ... </h5>
+                           
+							
+							<p class="large text-muted justify">
+							بفضل الله ثم بفضل الجهد المتواصل والعمل الجماعي لفريق عملنا استطعنا 
+                        ان نحقق نقلة نوعية على مستوى تقديم
+                         منتجات وخدمات متنوعة بأعلى معايير الجودة والكفاءة التي تنافس مثيلاتها المقدمة من الشركات العالمية
+                          في جميع المجالات المتنوعة لدينا معززين بدلك مكاننا في السوق المحلي والدولي كشركة متنوعة الخدمات وتتمتع بالموثوقية و
+                          التميز
+                          .<br> 
+                           ونعتز إن عمارة الأرض من أولى المهام التي كلف بها الله عز وجل الانسان ونحن في شركة الرياده العقارية جعلنا
+                            هذا التكليف تشريفا لنا أن نكون ممن يعمرون الأرض من خلال كيان عقاري ناجح يدار برؤية اقتصادية وجدوى
+                        استثمارية تحقق المعادلات الصعبة للعمل الناجح 
+                    .<br>
+                         نحرص على التغيير و التطوير ايمانا 
+                        من الشركة بأنها لابد وان تتغير مع الزمن لتواكب جميع
+                        الاحتياجات ورؤية المملكه 2030 .
+                        لتكون إضافة حقيقية لقطاع الاستثمار المتنامي في وطننا بالإضافة إلى مساهمتنا في ترسيخ لقواعد قياسية في
+                       صناعة العقار.<br>
+                        واريد ان أشكر فريق عملنا و كل من ساعدنا حتى تصبح شركة الريادة العقارية كيانا ذو شخصية متألقة متميزة.</p> 
+                       
+                       . </p><br>
+                        
+                    
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+         <!-- Contact-->
+         <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">تواصل معنا</h2>
+                    
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="section-heading text-uppercase">الهاتف</h4>
+                        
+                        <h5 class="section-heading text-uppercase">0126558860 
+                        </h5>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="section-heading text-uppercase">البريد الإلكتروني
+                        </h4>
+                        <h5 class="section-heading ">info@al-reyadaa.com</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-map-marker fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="section-heading text-uppercase">العنوان</h4>
+                        <h5 class="section-heading text-uppercase">جدة- حي الروضة شارع الأمير سعود الفيصل
+                        </h5>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <hr>
+        <div class="container">
+
+            <div class="w3agile-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.229221209599!2d46.67452301422132!3d24.753328755640766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03a660284fbf%3A0x40095046d1eae3ec!2sKing%20Abdul%20Aziz%20Rd%2C%20Riyadh%2011564%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1609084193078!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div></div>
+    <!-- //map -->
+    
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                  
+                    <div class="col-lg-4 text-lg-left">حقوق النشر محفوظة لشركة الريادة العقارية ©</div>
+
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/Riyaadaa"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/alriyaada"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/riyyaada"><i class="fab fa-instagram"></i></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </footer>
+       
+       </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+     
+            <!--scripts loaded here-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider-min.js"></script>
+    <script src="js/carousel.js"></script>
+	   <script src="js/scripts.js"></script>
+    </body>
+</html>
